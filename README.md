@@ -14,6 +14,6 @@ python -m venv .venv
 
 source .venv/bin/activate
 
-# then install everything with:
+# ###### then install everything with:-------------------------------------------------
 
 pip install -r requirements.txt
