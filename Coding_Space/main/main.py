@@ -10,6 +10,8 @@ from ETL.load_vehicle_type import load_vehicle_type
 from ETL.load_vehicle import load_vehicle
 from ETL.load_trip import load_trip
 from ETL.load_location_ping import load_location_ping
+from ETL.load_parking_area import load_parking_area
+from ETL.load_road_segment import load_road_segment
 
 
 
@@ -24,6 +26,8 @@ def main():
     load_vehicle()
     load_trip()
     load_location_ping()
+    load_parking_area()
+    load_road_segment()
     print("Finished")
 
 
