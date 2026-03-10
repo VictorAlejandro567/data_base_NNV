@@ -14,7 +14,7 @@ venv/
 Thumbs.db
 
 # Data files (optional but recommended)
-data/
+# data/
 
 # IDE files
 .vscode/
