@@ -9,6 +9,7 @@ from ETL.load_vehicle_status import load_vehicle_status
 from ETL.load_vehicle_type import load_vehicle_type
 from ETL.load_vehicle import load_vehicle
 from ETL.load_trip import load_trip
+from ETL.load_location_ping import load_location_ping
 
 
 
@@ -22,6 +23,7 @@ def main():
     load_vehicle_type()
     load_vehicle()
     load_trip()
+    load_location_ping()
     print("Finished")
 
 
